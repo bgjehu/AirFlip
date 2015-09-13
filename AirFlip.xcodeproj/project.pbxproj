@@ -8,20 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		A1485CCF1BA361ED00A36A60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485CCE1BA361ED00A36A60 /* AppDelegate.swift */; };
-		A1485CD11BA361ED00A36A60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485CD01BA361ED00A36A60 /* ViewController.swift */; };
 		A1485CD41BA361ED00A36A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1485CD21BA361ED00A36A60 /* Main.storyboard */; };
 		A1485CD61BA361ED00A36A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1485CD51BA361ED00A36A60 /* Assets.xcassets */; };
 		A1485CD91BA361ED00A36A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1485CD71BA361ED00A36A60 /* LaunchScreen.storyboard */; };
+		A1485CE71BA36B0200A36A60 /* SlidesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1485CE61BA36B0200A36A60 /* SlidesKit.framework */; settings = {ASSET_TAGS = (); }; };
+		A1485CE91BA36B3500A36A60 /* SlidesKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A1485CE61BA36B0200A36A60 /* SlidesKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1485CEC1BA3C54300A36A60 /* shake.png in Resources */ = {isa = PBXBuildFile; fileRef = A1485CEB1BA3C54300A36A60 /* shake.png */; settings = {ASSET_TAGS = (); }; };
+		A1485CEF1BA3C89100A36A60 /* LocalFilesPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485CED1BA3C89100A36A60 /* LocalFilesPreviewViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A1485CF01BA3C89100A36A60 /* SlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485CEE1BA3C89100A36A60 /* SlidesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A1DBE0931BA48B1700D5F9DC /* SlidesBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBE0921BA48B1700D5F9DC /* SlidesBarViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A1DBE0971BA48DD900D5F9DC /* Dropbox-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE0941BA48DD900D5F9DC /* Dropbox-icon.png */; settings = {ASSET_TAGS = (); }; };
+		A1DBE0981BA48DD900D5F9DC /* Google-Drive-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE0951BA48DD900D5F9DC /* Google-Drive-icon.png */; settings = {ASSET_TAGS = (); }; };
+		A1DBE0991BA48DD900D5F9DC /* Settings-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE0961BA48DD900D5F9DC /* Settings-icon.png */; settings = {ASSET_TAGS = (); }; };
+		A1DBE09B1BA4931C00D5F9DC /* Local-Files-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE09A1BA4931C00D5F9DC /* Local-Files-icon.png */; settings = {ASSET_TAGS = (); }; };
+		A1DBE1231BA4E0E100D5F9DC /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBE1221BA4E0E100D5F9DC /* ContainerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1485CE81BA36B2400A36A60 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A1485CE91BA36B3500A36A60 /* SlidesKit.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A1485CCB1BA361ED00A36A60 /* AirFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1485CCE1BA361ED00A36A60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1485CD01BA361ED00A36A60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1485CD31BA361ED00A36A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1485CD51BA361ED00A36A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1485CD81BA361ED00A36A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1485CDA1BA361ED00A36A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1485CE61BA36B0200A36A60 /* SlidesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SlidesKit.framework; sourceTree = "<group>"; };
+		A1485CEB1BA3C54300A36A60 /* shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shake.png; sourceTree = "<group>"; };
+		A1485CED1BA3C89100A36A60 /* LocalFilesPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFilesPreviewViewController.swift; sourceTree = "<group>"; };
+		A1485CEE1BA3C89100A36A60 /* SlidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesViewController.swift; sourceTree = "<group>"; };
+		A1DBE0921BA48B1700D5F9DC /* SlidesBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesBarViewController.swift; sourceTree = "<group>"; };
+		A1DBE0941BA48DD900D5F9DC /* Dropbox-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dropbox-icon.png"; sourceTree = "<group>"; };
+		A1DBE0951BA48DD900D5F9DC /* Google-Drive-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google-Drive-icon.png"; sourceTree = "<group>"; };
+		A1DBE0961BA48DD900D5F9DC /* Settings-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-icon.png"; sourceTree = "<group>"; };
+		A1DBE09A1BA4931C00D5F9DC /* Local-Files-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Local-Files-icon.png"; sourceTree = "<group>"; };
+		A1DBE1221BA4E0E100D5F9DC /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1485CE71BA36B0200A36A60 /* SlidesKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +72,9 @@
 		A1485CC21BA361ED00A36A60 = {
 			isa = PBXGroup;
 			children = (
+				A1DBE08F1BA4889B00D5F9DC /* MicrosoftBand */,
+				A1485CEA1BA3C54300A36A60 /* Resourses */,
+				A1485CE51BA36B0200A36A60 /* Frameworks */,
 				A1485CCD1BA361ED00A36A60 /* AirFlip */,
 				A1485CCC1BA361ED00A36A60 /* Products */,
 			);
@@ -54,14 +91,44 @@
 		A1485CCD1BA361ED00A36A60 /* AirFlip */ = {
 			isa = PBXGroup;
 			children = (
+				A1485CED1BA3C89100A36A60 /* LocalFilesPreviewViewController.swift */,
+				A1485CEE1BA3C89100A36A60 /* SlidesViewController.swift */,
 				A1485CCE1BA361ED00A36A60 /* AppDelegate.swift */,
-				A1485CD01BA361ED00A36A60 /* ViewController.swift */,
 				A1485CD21BA361ED00A36A60 /* Main.storyboard */,
 				A1485CD51BA361ED00A36A60 /* Assets.xcassets */,
 				A1485CD71BA361ED00A36A60 /* LaunchScreen.storyboard */,
 				A1485CDA1BA361ED00A36A60 /* Info.plist */,
+				A1DBE0921BA48B1700D5F9DC /* SlidesBarViewController.swift */,
+				A1DBE1221BA4E0E100D5F9DC /* ContainerViewController.swift */,
 			);
 			path = AirFlip;
+			sourceTree = "<group>";
+		};
+		A1485CE51BA36B0200A36A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1485CE61BA36B0200A36A60 /* SlidesKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1485CEA1BA3C54300A36A60 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				A1485CEB1BA3C54300A36A60 /* shake.png */,
+				A1DBE09A1BA4931C00D5F9DC /* Local-Files-icon.png */,
+				A1DBE0941BA48DD900D5F9DC /* Dropbox-icon.png */,
+				A1DBE0951BA48DD900D5F9DC /* Google-Drive-icon.png */,
+				A1DBE0961BA48DD900D5F9DC /* Settings-icon.png */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		A1DBE08F1BA4889B00D5F9DC /* MicrosoftBand */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MicrosoftBand;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +141,7 @@
 				A1485CC71BA361ED00A36A60 /* Sources */,
 				A1485CC81BA361ED00A36A60 /* Frameworks */,
 				A1485CC91BA361ED00A36A60 /* Resources */,
+				A1485CE81BA36B2400A36A60 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -95,6 +163,7 @@
 				TargetAttributes = {
 					A1485CCA1BA361ED00A36A60 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J6AJQ8THRK;
 					};
 				};
 			};
@@ -121,7 +190,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1DBE09B1BA4931C00D5F9DC /* Local-Files-icon.png in Resources */,
+				A1485CEC1BA3C54300A36A60 /* shake.png in Resources */,
+				A1DBE0991BA48DD900D5F9DC /* Settings-icon.png in Resources */,
 				A1485CD91BA361ED00A36A60 /* LaunchScreen.storyboard in Resources */,
+				A1DBE0981BA48DD900D5F9DC /* Google-Drive-icon.png in Resources */,
+				A1DBE0971BA48DD900D5F9DC /* Dropbox-icon.png in Resources */,
 				A1485CD61BA361ED00A36A60 /* Assets.xcassets in Resources */,
 				A1485CD41BA361ED00A36A60 /* Main.storyboard in Resources */,
 			);
@@ -134,8 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1485CD11BA361ED00A36A60 /* ViewController.swift in Sources */,
+				A1DBE0931BA48B1700D5F9DC /* SlidesBarViewController.swift in Sources */,
 				A1485CCF1BA361ED00A36A60 /* AppDelegate.swift in Sources */,
+				A1DBE1231BA4E0E100D5F9DC /* ContainerViewController.swift in Sources */,
+				A1485CEF1BA3C89100A36A60 /* LocalFilesPreviewViewController.swift in Sources */,
+				A1485CF01BA3C89100A36A60 /* SlidesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +323,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = AirFlip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.AirFlip;
@@ -257,6 +339,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = AirFlip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.AirFlip;
@@ -283,6 +370,7 @@
 				A1485CDF1BA361ED00A36A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
