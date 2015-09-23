@@ -7,54 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10B40D01BB052B800E8248D /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40CF1BB052B800E8248D /* LoadingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A10B40E21BB062EB00E8248D /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40E11BB062EB00E8248D /* LocalViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138DF11BB2696500386306 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1138DEA1BB2696500386306 /* MicrosoftBandKit_iOS.framework */; settings = {ASSET_TAGS = (); }; };
+		A1138DF21BB2696500386306 /* WKDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138DEB1BB2696500386306 /* WKDevice.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138DF31BB2696500386306 /* WKDeviceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138DEC1BB2696500386306 /* WKDeviceDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138DF41BB2696500386306 /* WKMicrosoftBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138DED1BB2696500386306 /* WKMicrosoftBand.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138DF51BB2696500386306 /* WKNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138DEE1BB2696500386306 /* WKNotifications.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138DF61BB2696500386306 /* WKNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138DEF1BB2696500386306 /* WKNotificationType.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138DF71BB2696500386306 /* WKSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138DF01BB2696500386306 /* WKSensor.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E1F1BB2697A00386306 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E141BB2697A00386306 /* Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E201BB2697A00386306 /* SKBaseSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E151BB2697A00386306 /* SKBaseSlidesView.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E211BB2697A00386306 /* SKCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E161BB2697A00386306 /* SKCache.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E221BB2697A00386306 /* SKCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E171BB2697A00386306 /* SKCacheManager.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E231BB2697A00386306 /* SKCacheManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E181BB2697A00386306 /* SKCacheManagerDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E241BB2697A00386306 /* SKInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E191BB2697A00386306 /* SKInfo.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E251BB2697A00386306 /* SKPDFSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E1A1BB2697A00386306 /* SKPDFSlidesView.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E261BB2697A00386306 /* SKPPTSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E1B1BB2697A00386306 /* SKPPTSlidesView.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E271BB2697A00386306 /* SKSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E1C1BB2697A00386306 /* SKSlidesView.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E281BB2697A00386306 /* SKSlidesViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E1D1BB2697A00386306 /* SKSlidesViewDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E291BB2697A00386306 /* SKStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E1E1BB2697A00386306 /* SKStandard.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E301BB2698200386306 /* CGPDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E2B1BB2698200386306 /* CGPDFDocument.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E311BB2698200386306 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E2C1BB2698200386306 /* String.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E321BB2698200386306 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E2D1BB2698200386306 /* UIImage.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E331BB2698200386306 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E2E1BB2698200386306 /* UIView.swift */; settings = {ASSET_TAGS = (); }; };
+		A1138E341BB2698200386306 /* UIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E2F1BB2698200386306 /* UIWebView.swift */; settings = {ASSET_TAGS = (); }; };
+		A13FC2BB1BAF85C900135BF8 /* CentralControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FC2BA1BAF85C900135BF8 /* CentralControlViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A13FC2BD1BAF896600135BF8 /* MidPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FC2BC1BAF896600135BF8 /* MidPanelViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A1485CCF1BA361ED00A36A60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485CCE1BA361ED00A36A60 /* AppDelegate.swift */; };
 		A1485CD41BA361ED00A36A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1485CD21BA361ED00A36A60 /* Main.storyboard */; };
 		A1485CD61BA361ED00A36A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1485CD51BA361ED00A36A60 /* Assets.xcassets */; };
 		A1485CD91BA361ED00A36A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1485CD71BA361ED00A36A60 /* LaunchScreen.storyboard */; };
-		A1485CE71BA36B0200A36A60 /* SlidesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1485CE61BA36B0200A36A60 /* SlidesKit.framework */; settings = {ASSET_TAGS = (); }; };
-		A1485CE91BA36B3500A36A60 /* SlidesKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A1485CE61BA36B0200A36A60 /* SlidesKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1485CEC1BA3C54300A36A60 /* shake.png in Resources */ = {isa = PBXBuildFile; fileRef = A1485CEB1BA3C54300A36A60 /* shake.png */; settings = {ASSET_TAGS = (); }; };
-		A1485CEF1BA3C89100A36A60 /* LocalFilesPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485CED1BA3C89100A36A60 /* LocalFilesPreviewViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A1485CF01BA3C89100A36A60 /* SlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485CEE1BA3C89100A36A60 /* SlidesViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A1DBE0931BA48B1700D5F9DC /* SlidesBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBE0921BA48B1700D5F9DC /* SlidesBarViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A18B46F71BB14F8100A3667E /* Dropbox.png in Resources */ = {isa = PBXBuildFile; fileRef = A18B46F61BB14F8100A3667E /* Dropbox.png */; settings = {ASSET_TAGS = (); }; };
+		A18B46F91BB1561300A3667E /* DropboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B46F81BB1561300A3667E /* DropboxViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A18B46FC1BB15DA600A3667E /* Local-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A18B46FB1BB15DA600A3667E /* Local-icon.png */; settings = {ASSET_TAGS = (); }; };
+		A18B46FE1BB161AF00A3667E /* GoogleDriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B46FD1BB161AF00A3667E /* GoogleDriveViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A18B47001BB1621900A3667E /* GoogleDrive.png in Resources */ = {isa = PBXBuildFile; fileRef = A18B46FF1BB1621900A3667E /* GoogleDrive.png */; settings = {ASSET_TAGS = (); }; };
+		A1C21B7A1BB1C94B0016BAB3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1C21B791BB1C94B0016BAB3 /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
+		A1DBE0931BA48B1700D5F9DC /* LeftPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBE0921BA48B1700D5F9DC /* LeftPanelViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A1DBE0971BA48DD900D5F9DC /* Dropbox-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE0941BA48DD900D5F9DC /* Dropbox-icon.png */; settings = {ASSET_TAGS = (); }; };
 		A1DBE0981BA48DD900D5F9DC /* Google-Drive-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE0951BA48DD900D5F9DC /* Google-Drive-icon.png */; settings = {ASSET_TAGS = (); }; };
-		A1DBE0991BA48DD900D5F9DC /* Settings-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE0961BA48DD900D5F9DC /* Settings-icon.png */; settings = {ASSET_TAGS = (); }; };
-		A1DBE09B1BA4931C00D5F9DC /* Local-Files-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE09A1BA4931C00D5F9DC /* Local-Files-icon.png */; settings = {ASSET_TAGS = (); }; };
-		A1DBE1231BA4E0E100D5F9DC /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBE1221BA4E0E100D5F9DC /* ContainerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		A1485CE81BA36B2400A36A60 /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A1485CE91BA36B3500A36A60 /* SlidesKit.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		A10B40CF1BB052B800E8248D /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		A10B40E11BB062EB00E8248D /* LocalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
+		A1138DE91BB2696500386306 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		A1138DEA1BB2696500386306 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftBandKit_iOS.framework; sourceTree = "<group>"; };
+		A1138DEB1BB2696500386306 /* WKDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKDevice.swift; sourceTree = "<group>"; };
+		A1138DEC1BB2696500386306 /* WKDeviceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKDeviceDelegate.swift; sourceTree = "<group>"; };
+		A1138DED1BB2696500386306 /* WKMicrosoftBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKMicrosoftBand.swift; sourceTree = "<group>"; };
+		A1138DEE1BB2696500386306 /* WKNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNotifications.swift; sourceTree = "<group>"; };
+		A1138DEF1BB2696500386306 /* WKNotificationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNotificationType.swift; sourceTree = "<group>"; };
+		A1138DF01BB2696500386306 /* WKSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSensor.swift; sourceTree = "<group>"; };
+		A1138E141BB2697A00386306 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A1138E151BB2697A00386306 /* SKBaseSlidesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKBaseSlidesView.swift; sourceTree = "<group>"; };
+		A1138E161BB2697A00386306 /* SKCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKCache.swift; sourceTree = "<group>"; };
+		A1138E171BB2697A00386306 /* SKCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKCacheManager.swift; sourceTree = "<group>"; };
+		A1138E181BB2697A00386306 /* SKCacheManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKCacheManagerDelegate.swift; sourceTree = "<group>"; };
+		A1138E191BB2697A00386306 /* SKInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKInfo.swift; sourceTree = "<group>"; };
+		A1138E1A1BB2697A00386306 /* SKPDFSlidesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPDFSlidesView.swift; sourceTree = "<group>"; };
+		A1138E1B1BB2697A00386306 /* SKPPTSlidesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPPTSlidesView.swift; sourceTree = "<group>"; };
+		A1138E1C1BB2697A00386306 /* SKSlidesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSlidesView.swift; sourceTree = "<group>"; };
+		A1138E1D1BB2697A00386306 /* SKSlidesViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSlidesViewDelegate.swift; sourceTree = "<group>"; };
+		A1138E1E1BB2697A00386306 /* SKStandard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKStandard.swift; sourceTree = "<group>"; };
+		A1138E2B1BB2698200386306 /* CGPDFDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPDFDocument.swift; sourceTree = "<group>"; };
+		A1138E2C1BB2698200386306 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		A1138E2D1BB2698200386306 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		A1138E2E1BB2698200386306 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		A1138E2F1BB2698200386306 /* UIWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebView.swift; sourceTree = "<group>"; };
+		A11C57931BB20E2500C290AE /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		A13FC2BA1BAF85C900135BF8 /* CentralControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralControlViewController.swift; sourceTree = "<group>"; };
+		A13FC2BC1BAF896600135BF8 /* MidPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidPanelViewController.swift; sourceTree = "<group>"; };
 		A1485CCB1BA361ED00A36A60 /* AirFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1485CCE1BA361ED00A36A60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1485CD31BA361ED00A36A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1485CD51BA361ED00A36A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1485CD81BA361ED00A36A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1485CDA1BA361ED00A36A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1485CE61BA36B0200A36A60 /* SlidesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SlidesKit.framework; sourceTree = "<group>"; };
 		A1485CEB1BA3C54300A36A60 /* shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shake.png; sourceTree = "<group>"; };
-		A1485CED1BA3C89100A36A60 /* LocalFilesPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFilesPreviewViewController.swift; sourceTree = "<group>"; };
 		A1485CEE1BA3C89100A36A60 /* SlidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesViewController.swift; sourceTree = "<group>"; };
-		A1DBE0921BA48B1700D5F9DC /* SlidesBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesBarViewController.swift; sourceTree = "<group>"; };
+		A18B46F61BB14F8100A3667E /* Dropbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dropbox.png; sourceTree = "<group>"; };
+		A18B46F81BB1561300A3667E /* DropboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxViewController.swift; sourceTree = "<group>"; };
+		A18B46FB1BB15DA600A3667E /* Local-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Local-icon.png"; sourceTree = "<group>"; };
+		A18B46FD1BB161AF00A3667E /* GoogleDriveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveViewController.swift; sourceTree = "<group>"; };
+		A18B46FF1BB1621900A3667E /* GoogleDrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleDrive.png; sourceTree = "<group>"; };
+		A1C21B791BB1C94B0016BAB3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		A1DBE0921BA48B1700D5F9DC /* LeftPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftPanelViewController.swift; sourceTree = "<group>"; };
 		A1DBE0941BA48DD900D5F9DC /* Dropbox-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dropbox-icon.png"; sourceTree = "<group>"; };
 		A1DBE0951BA48DD900D5F9DC /* Google-Drive-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google-Drive-icon.png"; sourceTree = "<group>"; };
-		A1DBE0961BA48DD900D5F9DC /* Settings-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-icon.png"; sourceTree = "<group>"; };
-		A1DBE09A1BA4931C00D5F9DC /* Local-Files-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Local-Files-icon.png"; sourceTree = "<group>"; };
-		A1DBE1221BA4E0E100D5F9DC /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,17 +105,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1485CE71BA36B0200A36A60 /* SlidesKit.framework in Frameworks */,
+				A1138DF11BB2696500386306 /* MicrosoftBandKit_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1138DE81BB2696500386306 /* WearableKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1138DE91BB2696500386306 /* BridgingHeader.h */,
+				A1138DEA1BB2696500386306 /* MicrosoftBandKit_iOS.framework */,
+				A1138DEB1BB2696500386306 /* WKDevice.swift */,
+				A1138DEC1BB2696500386306 /* WKDeviceDelegate.swift */,
+				A1138DED1BB2696500386306 /* WKMicrosoftBand.swift */,
+				A1138DEE1BB2696500386306 /* WKNotifications.swift */,
+				A1138DEF1BB2696500386306 /* WKNotificationType.swift */,
+				A1138DF01BB2696500386306 /* WKSensor.swift */,
+			);
+			name = WearableKit;
+			path = "../../OpenKit/Source Codes/WearableKit/WearableKit/WearableKit";
+			sourceTree = "<group>";
+		};
+		A1138E131BB2697A00386306 /* SlidesKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1138E141BB2697A00386306 /* Extension.swift */,
+				A1138E151BB2697A00386306 /* SKBaseSlidesView.swift */,
+				A1138E161BB2697A00386306 /* SKCache.swift */,
+				A1138E171BB2697A00386306 /* SKCacheManager.swift */,
+				A1138E181BB2697A00386306 /* SKCacheManagerDelegate.swift */,
+				A1138E191BB2697A00386306 /* SKInfo.swift */,
+				A1138E1A1BB2697A00386306 /* SKPDFSlidesView.swift */,
+				A1138E1B1BB2697A00386306 /* SKPPTSlidesView.swift */,
+				A1138E1C1BB2697A00386306 /* SKSlidesView.swift */,
+				A1138E1D1BB2697A00386306 /* SKSlidesViewDelegate.swift */,
+				A1138E1E1BB2697A00386306 /* SKStandard.swift */,
+			);
+			name = SlidesKit;
+			path = "../../OpenKit/Source Codes/SlidesKit/SlidesKit/SlidesKit";
+			sourceTree = "<group>";
+		};
+		A1138E2A1BB2698200386306 /* ExtensionKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1138E2B1BB2698200386306 /* CGPDFDocument.swift */,
+				A1138E2C1BB2698200386306 /* String.swift */,
+				A1138E2D1BB2698200386306 /* UIImage.swift */,
+				A1138E2E1BB2698200386306 /* UIView.swift */,
+				A1138E2F1BB2698200386306 /* UIWebView.swift */,
+			);
+			name = ExtensionKit;
+			path = "../../OpenKit/Source Codes/ExtensionKit/ExtensionKit/ExtensionKit";
+			sourceTree = "<group>";
+		};
 		A1485CC21BA361ED00A36A60 = {
 			isa = PBXGroup;
 			children = (
-				A1DBE08F1BA4889B00D5F9DC /* MicrosoftBand */,
 				A1485CEA1BA3C54300A36A60 /* Resourses */,
 				A1485CE51BA36B0200A36A60 /* Frameworks */,
 				A1485CCD1BA361ED00A36A60 /* AirFlip */,
@@ -91,15 +181,21 @@
 		A1485CCD1BA361ED00A36A60 /* AirFlip */ = {
 			isa = PBXGroup;
 			children = (
-				A1485CED1BA3C89100A36A60 /* LocalFilesPreviewViewController.swift */,
-				A1485CEE1BA3C89100A36A60 /* SlidesViewController.swift */,
+				A11C57931BB20E2500C290AE /* BridgingHeader.h */,
 				A1485CCE1BA361ED00A36A60 /* AppDelegate.swift */,
 				A1485CD21BA361ED00A36A60 /* Main.storyboard */,
-				A1485CD51BA361ED00A36A60 /* Assets.xcassets */,
 				A1485CD71BA361ED00A36A60 /* LaunchScreen.storyboard */,
+				A1485CD51BA361ED00A36A60 /* Assets.xcassets */,
 				A1485CDA1BA361ED00A36A60 /* Info.plist */,
-				A1DBE0921BA48B1700D5F9DC /* SlidesBarViewController.swift */,
-				A1DBE1221BA4E0E100D5F9DC /* ContainerViewController.swift */,
+				A13FC2BA1BAF85C900135BF8 /* CentralControlViewController.swift */,
+				A1DBE0921BA48B1700D5F9DC /* LeftPanelViewController.swift */,
+				A13FC2BC1BAF896600135BF8 /* MidPanelViewController.swift */,
+				A10B40CF1BB052B800E8248D /* LoadingViewController.swift */,
+				A10B40E11BB062EB00E8248D /* LocalViewController.swift */,
+				A1485CEE1BA3C89100A36A60 /* SlidesViewController.swift */,
+				A18B46F81BB1561300A3667E /* DropboxViewController.swift */,
+				A18B46FD1BB161AF00A3667E /* GoogleDriveViewController.swift */,
+				A1C21B791BB1C94B0016BAB3 /* Settings.bundle */,
 			);
 			path = AirFlip;
 			sourceTree = "<group>";
@@ -107,7 +203,9 @@
 		A1485CE51BA36B0200A36A60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A1485CE61BA36B0200A36A60 /* SlidesKit.framework */,
+				A1138E2A1BB2698200386306 /* ExtensionKit */,
+				A1138E131BB2697A00386306 /* SlidesKit */,
+				A1138DE81BB2696500386306 /* WearableKit */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -115,20 +213,14 @@
 		A1485CEA1BA3C54300A36A60 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				A18B46FF1BB1621900A3667E /* GoogleDrive.png */,
+				A18B46F61BB14F8100A3667E /* Dropbox.png */,
 				A1485CEB1BA3C54300A36A60 /* shake.png */,
-				A1DBE09A1BA4931C00D5F9DC /* Local-Files-icon.png */,
 				A1DBE0941BA48DD900D5F9DC /* Dropbox-icon.png */,
 				A1DBE0951BA48DD900D5F9DC /* Google-Drive-icon.png */,
-				A1DBE0961BA48DD900D5F9DC /* Settings-icon.png */,
+				A18B46FB1BB15DA600A3667E /* Local-icon.png */,
 			);
 			path = Resourses;
-			sourceTree = "<group>";
-		};
-		A1DBE08F1BA4889B00D5F9DC /* MicrosoftBand */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = MicrosoftBand;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +233,6 @@
 				A1485CC71BA361ED00A36A60 /* Sources */,
 				A1485CC81BA361ED00A36A60 /* Frameworks */,
 				A1485CC91BA361ED00A36A60 /* Resources */,
-				A1485CE81BA36B2400A36A60 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,9 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1DBE09B1BA4931C00D5F9DC /* Local-Files-icon.png in Resources */,
+				A18B46F71BB14F8100A3667E /* Dropbox.png in Resources */,
 				A1485CEC1BA3C54300A36A60 /* shake.png in Resources */,
-				A1DBE0991BA48DD900D5F9DC /* Settings-icon.png in Resources */,
+				A1C21B7A1BB1C94B0016BAB3 /* Settings.bundle in Resources */,
+				A18B47001BB1621900A3667E /* GoogleDrive.png in Resources */,
+				A18B46FC1BB15DA600A3667E /* Local-icon.png in Resources */,
 				A1485CD91BA361ED00A36A60 /* LaunchScreen.storyboard in Resources */,
 				A1DBE0981BA48DD900D5F9DC /* Google-Drive-icon.png in Resources */,
 				A1DBE0971BA48DD900D5F9DC /* Dropbox-icon.png in Resources */,
@@ -208,11 +301,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1DBE0931BA48B1700D5F9DC /* SlidesBarViewController.swift in Sources */,
+				A1138DF61BB2696500386306 /* WKNotificationType.swift in Sources */,
+				A10B40D01BB052B800E8248D /* LoadingViewController.swift in Sources */,
+				A1138E271BB2697A00386306 /* SKSlidesView.swift in Sources */,
+				A1138E341BB2698200386306 /* UIWebView.swift in Sources */,
+				A1138DF41BB2696500386306 /* WKMicrosoftBand.swift in Sources */,
+				A13FC2BD1BAF896600135BF8 /* MidPanelViewController.swift in Sources */,
+				A10B40E21BB062EB00E8248D /* LocalViewController.swift in Sources */,
+				A1138DF71BB2696500386306 /* WKSensor.swift in Sources */,
+				A1138E241BB2697A00386306 /* SKInfo.swift in Sources */,
+				A18B46F91BB1561300A3667E /* DropboxViewController.swift in Sources */,
+				A1138E1F1BB2697A00386306 /* Extension.swift in Sources */,
+				A1138E331BB2698200386306 /* UIView.swift in Sources */,
+				A1138E211BB2697A00386306 /* SKCache.swift in Sources */,
+				A1DBE0931BA48B1700D5F9DC /* LeftPanelViewController.swift in Sources */,
+				A1138E261BB2697A00386306 /* SKPPTSlidesView.swift in Sources */,
+				A18B46FE1BB161AF00A3667E /* GoogleDriveViewController.swift in Sources */,
+				A1138E291BB2697A00386306 /* SKStandard.swift in Sources */,
+				A1138E201BB2697A00386306 /* SKBaseSlidesView.swift in Sources */,
 				A1485CCF1BA361ED00A36A60 /* AppDelegate.swift in Sources */,
-				A1DBE1231BA4E0E100D5F9DC /* ContainerViewController.swift in Sources */,
-				A1485CEF1BA3C89100A36A60 /* LocalFilesPreviewViewController.swift in Sources */,
+				A1138DF51BB2696500386306 /* WKNotifications.swift in Sources */,
+				A1138E311BB2698200386306 /* String.swift in Sources */,
+				A1138E321BB2698200386306 /* UIImage.swift in Sources */,
 				A1485CF01BA3C89100A36A60 /* SlidesViewController.swift in Sources */,
+				A1138E231BB2697A00386306 /* SKCacheManagerDelegate.swift in Sources */,
+				A1138E251BB2697A00386306 /* SKPDFSlidesView.swift in Sources */,
+				A13FC2BB1BAF85C900135BF8 /* CentralControlViewController.swift in Sources */,
+				A1138E301BB2698200386306 /* CGPDFDocument.swift in Sources */,
+				A1138E221BB2697A00386306 /* SKCacheManager.swift in Sources */,
+				A1138DF31BB2696500386306 /* WKDeviceDelegate.swift in Sources */,
+				A1138E281BB2697A00386306 /* SKSlidesViewDelegate.swift in Sources */,
+				A1138DF21BB2696500386306 /* WKDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,14 +443,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/WearableKit",
 				);
 				INFOPLIST_FILE = AirFlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.AirFlip;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.AirFlipAlpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = AirFlip/BridgingHeader.h;
 			};
 			name = Debug;
 		};
@@ -340,14 +464,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/WearableKit",
 				);
 				INFOPLIST_FILE = AirFlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.AirFlip;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.AirFlipAlpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = AirFlip/BridgingHeader.h;
 			};
 			name = Release;
 		};

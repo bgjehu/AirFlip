@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0EE1BD127591FD0E61DAE4EF068B41A4B7C4D998",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0EE1BD127591FD0E61DAE4EF068B41A4B7C4D998" : 0,
+    "A06C3BA5E4730C788CE771D1DECBF25D5FB1AD45" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6EC1ED39-1A9D-438D-825C-BCA081A279B2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0EE1BD127591FD0E61DAE4EF068B41A4B7C4D998" : "AirFlip\/",
+    "A06C3BA5E4730C788CE771D1DECBF25D5FB1AD45" : "OpenKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AirFlip",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AirFlip.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fullstackpug\/AirFlip.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0EE1BD127591FD0E61DAE4EF068B41A4B7C4D998"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fullstackpug\/OpenKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A06C3BA5E4730C788CE771D1DECBF25D5FB1AD45"
+    }
+  ]
+}

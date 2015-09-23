@@ -8,7 +8,7 @@
 //
 
 import UIKit
-import SlidesKit
+//import SlidesKit
 
 class SlidesViewController: UIViewController, SKSlidesViewDelegate {
     
@@ -42,6 +42,9 @@ class SlidesViewController: UIViewController, SKSlidesViewDelegate {
             slidesView.hidden = true
             slidesView.load(info.filePath)
         }
+    }
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.navigationBarHidden = true
     }
     
     override func shouldAutorotate() -> Bool {
