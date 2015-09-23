@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A10B40D01BB052B800E8248D /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40CF1BB052B800E8248D /* LoadingViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A10B40E21BB062EB00E8248D /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40E11BB062EB00E8248D /* LocalViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A1138DF11BB2696500386306 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1138DEA1BB2696500386306 /* MicrosoftBandKit_iOS.framework */; settings = {ASSET_TAGS = (); }; };
 		A1138DF21BB2696500386306 /* WKDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138DEB1BB2696500386306 /* WKDevice.swift */; settings = {ASSET_TAGS = (); }; };
 		A1138DF31BB2696500386306 /* WKDeviceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138DEC1BB2696500386306 /* WKDeviceDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 		A1138DF41BB2696500386306 /* WKMicrosoftBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138DED1BB2696500386306 /* WKMicrosoftBand.swift */; settings = {ASSET_TAGS = (); }; };
@@ -32,6 +31,7 @@
 		A1138E321BB2698200386306 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E2D1BB2698200386306 /* UIImage.swift */; settings = {ASSET_TAGS = (); }; };
 		A1138E331BB2698200386306 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E2E1BB2698200386306 /* UIView.swift */; settings = {ASSET_TAGS = (); }; };
 		A1138E341BB2698200386306 /* UIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1138E2F1BB2698200386306 /* UIWebView.swift */; settings = {ASSET_TAGS = (); }; };
+		A116A75D1BB26BC3002077E6 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A116A75C1BB26BC3002077E6 /* MicrosoftBandKit_iOS.framework */; settings = {ASSET_TAGS = (); }; };
 		A13FC2BB1BAF85C900135BF8 /* CentralControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FC2BA1BAF85C900135BF8 /* CentralControlViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A13FC2BD1BAF896600135BF8 /* MidPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FC2BC1BAF896600135BF8 /* MidPanelViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A1485CCF1BA361ED00A36A60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485CCE1BA361ED00A36A60 /* AppDelegate.swift */; };
@@ -54,8 +54,6 @@
 /* Begin PBXFileReference section */
 		A10B40CF1BB052B800E8248D /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		A10B40E11BB062EB00E8248D /* LocalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
-		A1138DE91BB2696500386306 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
-		A1138DEA1BB2696500386306 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftBandKit_iOS.framework; sourceTree = "<group>"; };
 		A1138DEB1BB2696500386306 /* WKDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKDevice.swift; sourceTree = "<group>"; };
 		A1138DEC1BB2696500386306 /* WKDeviceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKDeviceDelegate.swift; sourceTree = "<group>"; };
 		A1138DED1BB2696500386306 /* WKMicrosoftBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKMicrosoftBand.swift; sourceTree = "<group>"; };
@@ -78,6 +76,7 @@
 		A1138E2D1BB2698200386306 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		A1138E2E1BB2698200386306 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		A1138E2F1BB2698200386306 /* UIWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebView.swift; sourceTree = "<group>"; };
+		A116A75C1BB26BC3002077E6 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MicrosoftBandKit_iOS.framework; path = Frameworks/MicrosoftBandKit_iOS.framework; sourceTree = SOURCE_ROOT; };
 		A11C57931BB20E2500C290AE /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		A13FC2BA1BAF85C900135BF8 /* CentralControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralControlViewController.swift; sourceTree = "<group>"; };
 		A13FC2BC1BAF896600135BF8 /* MidPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidPanelViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1138DF11BB2696500386306 /* MicrosoftBandKit_iOS.framework in Frameworks */,
+				A116A75D1BB26BC3002077E6 /* MicrosoftBandKit_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +114,7 @@
 		A1138DE81BB2696500386306 /* WearableKit */ = {
 			isa = PBXGroup;
 			children = (
-				A1138DE91BB2696500386306 /* BridgingHeader.h */,
-				A1138DEA1BB2696500386306 /* MicrosoftBandKit_iOS.framework */,
+				A116A75C1BB26BC3002077E6 /* MicrosoftBandKit_iOS.framework */,
 				A1138DEB1BB2696500386306 /* WKDevice.swift */,
 				A1138DEC1BB2696500386306 /* WKDeviceDelegate.swift */,
 				A1138DED1BB2696500386306 /* WKMicrosoftBand.swift */,
