@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import SlidesKit
+import SlidesKit
 
 class LoadingViewController: UIViewController, SKCacheManagerDelegate {
 
