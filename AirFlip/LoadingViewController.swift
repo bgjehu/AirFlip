@@ -42,8 +42,8 @@ class LoadingViewController: UIViewController, SKCacheManagerDelegate {
     }
     
     func retrievalDidFinish(cacheManager: SKCacheManager, cache: [SKInfo]) {
-        performSegueWithIdentifier("ShowLocalViewController", sender: cache)
         self.cache = cache
+        performSegueWithIdentifier("ShowLocalViewController", sender: cache)
     }
     
     func retrievalProgressReported(cacheManager: SKCacheManager, percent: Float) {
@@ -51,8 +51,8 @@ class LoadingViewController: UIViewController, SKCacheManagerDelegate {
     }
     
     func rebuildingDidFinish(cacheManager: SKCacheManager, cache: [SKInfo]) {
-        performSegueWithIdentifier("ShowLocalViewController", sender: cache)
         self.cache = cache
+        performSegueWithIdentifier("ShowLocalViewController", sender: cache)
     }
     
     func rebuildingProgressReported(cacheManager: SKCacheManager, percent: Float) {

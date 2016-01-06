@@ -71,7 +71,6 @@ class LocalViewController: UITableViewController {
     
     func rebuild() {
         (self.navigationController?.viewControllers[0] as? LoadingViewController)?.run(.rebuild)
-        self.navigationController?.popToRootViewControllerAnimated(false)
     }
     
     func toggle() {

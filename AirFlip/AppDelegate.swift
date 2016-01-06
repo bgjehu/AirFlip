@@ -9,18 +9,17 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, MSBBandDelegate {
 
     var window: UIWindow?
     
-    var msBand = WKMicrosoftBand.sharedDevice()
+    var band = MSBBand.sharedDevice()
+    
+    var bandApplication = AirFlipBandApplication.sharedApplication()
     
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        if msBand.available {
-            msBand.connect()
-        }
         return true
     }
 
@@ -40,12 +39,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        //  connect microsoft band is needed
+        if UserPreferences.useMicrosoftBand && !band.connected {
+            band.delegate = self
+            band.connect()
+        }
     }
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+    func band(band: MSBBand, didConnectWithInfo info: [NSObject : AnyObject]?) {
+        band.tileDelegate = bandApplication
+//        band.install(application: bandApplication)
+    }
+    
+    func band(band: MSBBand, didInstalApplication application: MSBApplication) {
+        
+    }
+    
+    func band(band: MSBBand, didOpenTileWithEvent event: MSBTileEvent) {
+        
+    }
 }
 

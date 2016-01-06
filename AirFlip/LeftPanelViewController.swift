@@ -66,7 +66,6 @@ class LeftPanelViewController: UIViewController, UITableViewDataSource, UITableV
         }
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
-
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("menuItemCell", forIndexPath: indexPath)

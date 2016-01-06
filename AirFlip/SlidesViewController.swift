@@ -43,7 +43,15 @@ class SlidesViewController: UIViewController, SKSlidesViewDelegate {
             slidesView.load(info.filePath)
         }
     }
+    
+    override func viewWillDisappear(animated: Bool) {
+        NSNotificationCenter.defaultCenter().removeObserver(self)
+    }
+    
     override func viewWillAppear(animated: Bool) {
+        //  register band notification
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "prevPage", name: "com.fullstackpug.AirFlip.bandApplication.prevButtonPressed", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "nextPage", name: "com.fullstackpug.AirFlip.bandApplication.nextButtonPressed", object: nil)
         self.navigationController?.navigationBarHidden = true
     }
     
@@ -107,6 +115,14 @@ class SlidesViewController: UIViewController, SKSlidesViewDelegate {
             NSUserDefaults.standardUserDefaults().setBool(true, forKey: "ShowedShakeImage")
             NSUserDefaults.standardUserDefaults().synchronize()
         }
+    }
+    
+    func prevPage() {
+        slidesView.prevPage()
+    }
+    
+    func nextPage() {
+        slidesView.nextPage()
     }
     
 

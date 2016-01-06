@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UsI-Lj-LqP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UsI-Lj-LqP">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -233,6 +233,7 @@
                             <outlet property="delegate" destination="C7e-M2-hxy" id="cMP-dM-yzo"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="Ed5-wo-IlQ"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qeu-o4-eu3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -355,9 +356,9 @@
                     <connections>
                         <segue destination="1fQ-Wv-Lp1" kind="relationship" relationship="rootViewController" id="31q-ej-OrU"/>
                         <segue destination="e40-N8-ILY" kind="show" identifier="ShowDropboxViewControllerSegue" id="a6C-12-TW0"/>
-                        <segue destination="C7e-M2-hxy" kind="show" identifier="ShowLocalViewControllerSegue" id="GPS-HY-5hT"/>
                         <segue destination="Nok-QP-rQE" kind="show" identifier="ShowGoogleDriveViewControllerSegue" id="hBE-90-mbg"/>
                         <segue destination="NKR-F4-yJc" kind="show" identifier="ShowSettingsViewControllerSegue" id="FEB-i6-6cE"/>
+                        <segue destination="1fQ-Wv-Lp1" kind="show" identifier="ShowLocalViewControllerSegue" id="aX6-nh-ReX"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="agI-Ab-I4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -537,6 +538,6 @@
         <image name="shake.png" width="110" height="110"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tXs-Ct-OBy"/>
+        <segue reference="aX6-nh-ReX"/>
     </inferredMetricsTieBreakers>
 </document>
