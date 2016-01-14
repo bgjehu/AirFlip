@@ -7,44 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10B40D01BB052B800E8248D /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40CF1BB052B800E8248D /* LoadingViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A10B40E21BB062EB00E8248D /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40E11BB062EB00E8248D /* LocalViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A116A75D1BB26BC3002077E6 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A116A75C1BB26BC3002077E6 /* MicrosoftBandKit_iOS.framework */; settings = {ASSET_TAGS = (); }; };
+		A10B40D01BB052B800E8248D /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40CF1BB052B800E8248D /* LoadingViewController.swift */; };
+		A10B40E21BB062EB00E8248D /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40E11BB062EB00E8248D /* LocalViewController.swift */; };
 		A116A7721BB30A80002077E6 /* SlidesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A116A76E1BB30A4F002077E6 /* SlidesKit.framework */; };
 		A116A7731BB30A80002077E6 /* SlidesKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A116A76E1BB30A4F002077E6 /* SlidesKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A12BC59D1BB79E9B00803661 /* nextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A12BC59B1BB79E9B00803661 /* nextButton.png */; settings = {ASSET_TAGS = (); }; };
-		A12BC59E1BB79E9B00803661 /* prevButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A12BC59C1BB79E9B00803661 /* prevButton.png */; settings = {ASSET_TAGS = (); }; };
-		A13FC2BB1BAF85C900135BF8 /* CentralControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FC2BA1BAF85C900135BF8 /* CentralControlViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A13FC2BD1BAF896600135BF8 /* MidPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FC2BC1BAF896600135BF8 /* MidPanelViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A12BC59D1BB79E9B00803661 /* nextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A12BC59B1BB79E9B00803661 /* nextButton.png */; };
+		A12BC59E1BB79E9B00803661 /* prevButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A12BC59C1BB79E9B00803661 /* prevButton.png */; };
+		A13FC2BB1BAF85C900135BF8 /* CentralControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FC2BA1BAF85C900135BF8 /* CentralControlViewController.swift */; };
+		A13FC2BD1BAF896600135BF8 /* MidPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FC2BC1BAF896600135BF8 /* MidPanelViewController.swift */; };
 		A1485CCF1BA361ED00A36A60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485CCE1BA361ED00A36A60 /* AppDelegate.swift */; };
 		A1485CD41BA361ED00A36A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1485CD21BA361ED00A36A60 /* Main.storyboard */; };
 		A1485CD61BA361ED00A36A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1485CD51BA361ED00A36A60 /* Assets.xcassets */; };
 		A1485CD91BA361ED00A36A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1485CD71BA361ED00A36A60 /* LaunchScreen.storyboard */; };
-		A1485CEC1BA3C54300A36A60 /* shake.png in Resources */ = {isa = PBXBuildFile; fileRef = A1485CEB1BA3C54300A36A60 /* shake.png */; settings = {ASSET_TAGS = (); }; };
-		A1485CF01BA3C89100A36A60 /* SlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485CEE1BA3C89100A36A60 /* SlidesViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A16E47D51BB41ABF00283A5D /* bandicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A16E47D31BB41ABF00283A5D /* bandicon.png */; settings = {ASSET_TAGS = (); }; };
-		A16E47D61BB41ABF00283A5D /* bandsmallicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A16E47D41BB41ABF00283A5D /* bandsmallicon.png */; settings = {ASSET_TAGS = (); }; };
+		A1485CEC1BA3C54300A36A60 /* shake.png in Resources */ = {isa = PBXBuildFile; fileRef = A1485CEB1BA3C54300A36A60 /* shake.png */; };
+		A1485CF01BA3C89100A36A60 /* SlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1485CEE1BA3C89100A36A60 /* SlidesViewController.swift */; };
+		A16E47D51BB41ABF00283A5D /* bandicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A16E47D31BB41ABF00283A5D /* bandicon.png */; };
+		A16E47D61BB41ABF00283A5D /* bandsmallicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A16E47D41BB41ABF00283A5D /* bandsmallicon.png */; };
 		A16E47F11BB4B86E00283A5D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16E47F01BB4B86E00283A5D /* CoreBluetooth.framework */; };
-		A18B46F71BB14F8100A3667E /* Dropbox.png in Resources */ = {isa = PBXBuildFile; fileRef = A18B46F61BB14F8100A3667E /* Dropbox.png */; settings = {ASSET_TAGS = (); }; };
-		A18B46F91BB1561300A3667E /* DropboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B46F81BB1561300A3667E /* DropboxViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A18B46FC1BB15DA600A3667E /* Local-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A18B46FB1BB15DA600A3667E /* Local-icon.png */; settings = {ASSET_TAGS = (); }; };
-		A18B46FE1BB161AF00A3667E /* GoogleDriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B46FD1BB161AF00A3667E /* GoogleDriveViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A18B47001BB1621900A3667E /* GoogleDrive.png in Resources */ = {isa = PBXBuildFile; fileRef = A18B46FF1BB1621900A3667E /* GoogleDrive.png */; settings = {ASSET_TAGS = (); }; };
-		A1C21B7A1BB1C94B0016BAB3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1C21B791BB1C94B0016BAB3 /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
-		A1CCFBDF1BB6F85500E08CFD /* MSBApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBD31BB6F85500E08CFD /* MSBApplication.swift */; settings = {ASSET_TAGS = (); }; };
-		A1CCFBE01BB6F85500E08CFD /* MSBApplicationInstallationSharedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBD41BB6F85500E08CFD /* MSBApplicationInstallationSharedObject.swift */; settings = {ASSET_TAGS = (); }; };
-		A1CCFBE11BB6F85500E08CFD /* MSBBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBD51BB6F85500E08CFD /* MSBBand.swift */; settings = {ASSET_TAGS = (); }; };
-		A1CCFBE21BB6F85500E08CFD /* MSBBandDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBD61BB6F85500E08CFD /* MSBBandDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		A1CCFBE31BB6F85500E08CFD /* MSBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBD71BB6F85500E08CFD /* MSBError.swift */; settings = {ASSET_TAGS = (); }; };
-		A1CCFBE41BB6F85500E08CFD /* MSBNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBD81BB6F85500E08CFD /* MSBNotificationType.swift */; settings = {ASSET_TAGS = (); }; };
-		A1CCFBE91BB6F85500E08CFD /* MSBSensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBDD1BB6F85500E08CFD /* MSBSensorType.swift */; settings = {ASSET_TAGS = (); }; };
-		A1CCFBEA1BB6F85500E08CFD /* MSBTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBDE1BB6F85500E08CFD /* MSBTile.swift */; settings = {ASSET_TAGS = (); }; };
-		A1CCFC041BB70F7000E08CFD /* MSBBandTileDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFC031BB70F7000E08CFD /* MSBBandTileDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		A1DBE0931BA48B1700D5F9DC /* LeftPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBE0921BA48B1700D5F9DC /* LeftPanelViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		A1DBE0971BA48DD900D5F9DC /* Dropbox-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE0941BA48DD900D5F9DC /* Dropbox-icon.png */; settings = {ASSET_TAGS = (); }; };
-		A1DBE0981BA48DD900D5F9DC /* Google-Drive-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE0951BA48DD900D5F9DC /* Google-Drive-icon.png */; settings = {ASSET_TAGS = (); }; };
-		A1E11E171BB384220002BEF9 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11E161BB384220002BEF9 /* UserPreferences.swift */; settings = {ASSET_TAGS = (); }; };
-		A1E11E191BB397430002BEF9 /* AirFlipBandApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11E181BB397420002BEF9 /* AirFlipBandApplication.swift */; settings = {ASSET_TAGS = (); }; };
+		A18B46F71BB14F8100A3667E /* Dropbox.png in Resources */ = {isa = PBXBuildFile; fileRef = A18B46F61BB14F8100A3667E /* Dropbox.png */; };
+		A18B46F91BB1561300A3667E /* DropboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B46F81BB1561300A3667E /* DropboxViewController.swift */; };
+		A18B46FC1BB15DA600A3667E /* Local-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A18B46FB1BB15DA600A3667E /* Local-icon.png */; };
+		A18B46FE1BB161AF00A3667E /* GoogleDriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B46FD1BB161AF00A3667E /* GoogleDriveViewController.swift */; };
+		A18B47001BB1621900A3667E /* GoogleDrive.png in Resources */ = {isa = PBXBuildFile; fileRef = A18B46FF1BB1621900A3667E /* GoogleDrive.png */; };
+		A1C21B7A1BB1C94B0016BAB3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1C21B791BB1C94B0016BAB3 /* Settings.bundle */; };
+		A1DBE0931BA48B1700D5F9DC /* LeftPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBE0921BA48B1700D5F9DC /* LeftPanelViewController.swift */; };
+		A1DBE0971BA48DD900D5F9DC /* Dropbox-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE0941BA48DD900D5F9DC /* Dropbox-icon.png */; };
+		A1DBE0981BA48DD900D5F9DC /* Google-Drive-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1DBE0951BA48DD900D5F9DC /* Google-Drive-icon.png */; };
+		A1E11E171BB384220002BEF9 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11E161BB384220002BEF9 /* UserPreferences.swift */; };
+		A1E11E191BB397430002BEF9 /* AirFlipBandApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11E181BB397420002BEF9 /* AirFlipBandApplication.swift */; };
+		D8EE6AD11C473ABA00AF6EC3 /* MSBApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE6AC81C473ABA00AF6EC3 /* MSBApplication.swift */; };
+		D8EE6AD21C473ABA00AF6EC3 /* MSBApplicationInstallationSharedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE6AC91C473ABA00AF6EC3 /* MSBApplicationInstallationSharedObject.swift */; };
+		D8EE6AD31C473ABA00AF6EC3 /* MSBBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE6ACA1C473ABA00AF6EC3 /* MSBBand.swift */; };
+		D8EE6AD41C473ABA00AF6EC3 /* MSBBandDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE6ACB1C473ABA00AF6EC3 /* MSBBandDelegate.swift */; };
+		D8EE6AD51C473ABA00AF6EC3 /* MSBBandTileDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE6ACC1C473ABA00AF6EC3 /* MSBBandTileDelegate.swift */; };
+		D8EE6AD61C473ABA00AF6EC3 /* MSBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE6ACD1C473ABA00AF6EC3 /* MSBError.swift */; };
+		D8EE6AD71C473ABA00AF6EC3 /* MSBNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE6ACE1C473ABA00AF6EC3 /* MSBNotificationType.swift */; };
+		D8EE6AD81C473ABA00AF6EC3 /* MSBSensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE6ACF1C473ABA00AF6EC3 /* MSBSensorType.swift */; };
+		D8EE6AD91C473ABA00AF6EC3 /* MSBTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE6AD01C473ABA00AF6EC3 /* MSBTile.swift */; };
+		D8EE6ADB1C473B3300AF6EC3 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EE6ADA1C473B3300AF6EC3 /* MicrosoftBandKit_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,9 +64,7 @@
 /* Begin PBXFileReference section */
 		A10B40CF1BB052B800E8248D /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		A10B40E11BB062EB00E8248D /* LocalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
-		A116A75C1BB26BC3002077E6 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MicrosoftBandKit_iOS.framework; path = Frameworks/MicrosoftBandKit_iOS.framework; sourceTree = SOURCE_ROOT; };
 		A116A76E1BB30A4F002077E6 /* SlidesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SlidesKit.framework; sourceTree = "<group>"; };
-		A11C57931BB20E2500C290AE /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		A12BC59B1BB79E9B00803661 /* nextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextButton.png; sourceTree = "<group>"; };
 		A12BC59C1BB79E9B00803661 /* prevButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prevButton.png; sourceTree = "<group>"; };
 		A13FC2BA1BAF85C900135BF8 /* CentralControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralControlViewController.swift; sourceTree = "<group>"; };
@@ -88,20 +86,21 @@
 		A18B46FD1BB161AF00A3667E /* GoogleDriveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveViewController.swift; sourceTree = "<group>"; };
 		A18B46FF1BB1621900A3667E /* GoogleDrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleDrive.png; sourceTree = "<group>"; };
 		A1C21B791BB1C94B0016BAB3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		A1CCFBD31BB6F85500E08CFD /* MSBApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBApplication.swift; sourceTree = "<group>"; };
-		A1CCFBD41BB6F85500E08CFD /* MSBApplicationInstallationSharedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBApplicationInstallationSharedObject.swift; sourceTree = "<group>"; };
-		A1CCFBD51BB6F85500E08CFD /* MSBBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBBand.swift; sourceTree = "<group>"; };
-		A1CCFBD61BB6F85500E08CFD /* MSBBandDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBBandDelegate.swift; sourceTree = "<group>"; };
-		A1CCFBD71BB6F85500E08CFD /* MSBError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBError.swift; sourceTree = "<group>"; };
-		A1CCFBD81BB6F85500E08CFD /* MSBNotificationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBNotificationType.swift; sourceTree = "<group>"; };
-		A1CCFBDD1BB6F85500E08CFD /* MSBSensorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBSensorType.swift; sourceTree = "<group>"; };
-		A1CCFBDE1BB6F85500E08CFD /* MSBTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBTile.swift; sourceTree = "<group>"; };
-		A1CCFC031BB70F7000E08CFD /* MSBBandTileDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBBandTileDelegate.swift; sourceTree = "<group>"; };
 		A1DBE0921BA48B1700D5F9DC /* LeftPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftPanelViewController.swift; sourceTree = "<group>"; };
 		A1DBE0941BA48DD900D5F9DC /* Dropbox-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dropbox-icon.png"; sourceTree = "<group>"; };
 		A1DBE0951BA48DD900D5F9DC /* Google-Drive-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google-Drive-icon.png"; sourceTree = "<group>"; };
 		A1E11E161BB384220002BEF9 /* UserPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
 		A1E11E181BB397420002BEF9 /* AirFlipBandApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirFlipBandApplication.swift; sourceTree = "<group>"; };
+		D8EE6AC81C473ABA00AF6EC3 /* MSBApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBApplication.swift; sourceTree = "<group>"; };
+		D8EE6AC91C473ABA00AF6EC3 /* MSBApplicationInstallationSharedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBApplicationInstallationSharedObject.swift; sourceTree = "<group>"; };
+		D8EE6ACA1C473ABA00AF6EC3 /* MSBBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBBand.swift; sourceTree = "<group>"; };
+		D8EE6ACB1C473ABA00AF6EC3 /* MSBBandDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBBandDelegate.swift; sourceTree = "<group>"; };
+		D8EE6ACC1C473ABA00AF6EC3 /* MSBBandTileDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBBandTileDelegate.swift; sourceTree = "<group>"; };
+		D8EE6ACD1C473ABA00AF6EC3 /* MSBError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBError.swift; sourceTree = "<group>"; };
+		D8EE6ACE1C473ABA00AF6EC3 /* MSBNotificationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBNotificationType.swift; sourceTree = "<group>"; };
+		D8EE6ACF1C473ABA00AF6EC3 /* MSBSensorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBSensorType.swift; sourceTree = "<group>"; };
+		D8EE6AD01C473ABA00AF6EC3 /* MSBTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBTile.swift; sourceTree = "<group>"; };
+		D8EE6ADA1C473B3300AF6EC3 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MicrosoftBandKit_iOS.framework; path = "../../OpenKit/Source Codes/MSBWrapper/MSBWrapper/MicrosoftBandKit_iOS.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +109,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A16E47F11BB4B86E00283A5D /* CoreBluetooth.framework in Frameworks */,
-				A116A75D1BB26BC3002077E6 /* MicrosoftBandKit_iOS.framework in Frameworks */,
+				D8EE6ADB1C473B3300AF6EC3 /* MicrosoftBandKit_iOS.framework in Frameworks */,
 				A116A7721BB30A80002077E6 /* SlidesKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,24 +117,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1138DE81BB2696500386306 /* WearableKit */ = {
-			isa = PBXGroup;
-			children = (
-				A1CCFBD31BB6F85500E08CFD /* MSBApplication.swift */,
-				A1CCFBD41BB6F85500E08CFD /* MSBApplicationInstallationSharedObject.swift */,
-				A1CCFBD51BB6F85500E08CFD /* MSBBand.swift */,
-				A1CCFBD61BB6F85500E08CFD /* MSBBandDelegate.swift */,
-				A1CCFC031BB70F7000E08CFD /* MSBBandTileDelegate.swift */,
-				A1CCFBD71BB6F85500E08CFD /* MSBError.swift */,
-				A1CCFBD81BB6F85500E08CFD /* MSBNotificationType.swift */,
-				A1CCFBDD1BB6F85500E08CFD /* MSBSensorType.swift */,
-				A1CCFBDE1BB6F85500E08CFD /* MSBTile.swift */,
-				A116A75C1BB26BC3002077E6 /* MicrosoftBandKit_iOS.framework */,
-			);
-			name = WearableKit;
-			path = "../../OpenKit/Source Codes/WearableKit/WearableKit/WearableKit";
-			sourceTree = "<group>";
-		};
 		A1485CC21BA361ED00A36A60 = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +138,6 @@
 		A1485CCD1BA361ED00A36A60 /* AirFlip */ = {
 			isa = PBXGroup;
 			children = (
-				A11C57931BB20E2500C290AE /* BridgingHeader.h */,
 				A1E11E181BB397420002BEF9 /* AirFlipBandApplication.swift */,
 				A1485CCE1BA361ED00A36A60 /* AppDelegate.swift */,
 				A1485CD21BA361ED00A36A60 /* Main.storyboard */,
@@ -181,9 +161,10 @@
 		A1485CE51BA36B0200A36A60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D8EE6AC71C473ABA00AF6EC3 /* Wrapper */,
 				A16E47F01BB4B86E00283A5D /* CoreBluetooth.framework */,
+				D8EE6ADA1C473B3300AF6EC3 /* MicrosoftBandKit_iOS.framework */,
 				A116A76E1BB30A4F002077E6 /* SlidesKit.framework */,
-				A1138DE81BB2696500386306 /* WearableKit */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -203,6 +184,23 @@
 				A16E47D41BB41ABF00283A5D /* bandsmallicon.png */,
 			);
 			path = Resourses;
+			sourceTree = "<group>";
+		};
+		D8EE6AC71C473ABA00AF6EC3 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE6AC81C473ABA00AF6EC3 /* MSBApplication.swift */,
+				D8EE6AC91C473ABA00AF6EC3 /* MSBApplicationInstallationSharedObject.swift */,
+				D8EE6ACA1C473ABA00AF6EC3 /* MSBBand.swift */,
+				D8EE6ACB1C473ABA00AF6EC3 /* MSBBandDelegate.swift */,
+				D8EE6ACC1C473ABA00AF6EC3 /* MSBBandTileDelegate.swift */,
+				D8EE6ACD1C473ABA00AF6EC3 /* MSBError.swift */,
+				D8EE6ACE1C473ABA00AF6EC3 /* MSBNotificationType.swift */,
+				D8EE6ACF1C473ABA00AF6EC3 /* MSBSensorType.swift */,
+				D8EE6AD01C473ABA00AF6EC3 /* MSBTile.swift */,
+			);
+			name = Wrapper;
+			path = "../../OpenKit/Source Codes/MSBWrapper/MSBWrapper/Wrapper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,24 +291,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1CCFBE21BB6F85500E08CFD /* MSBBandDelegate.swift in Sources */,
+				D8EE6AD41C473ABA00AF6EC3 /* MSBBandDelegate.swift in Sources */,
+				D8EE6AD81C473ABA00AF6EC3 /* MSBSensorType.swift in Sources */,
 				A1E11E171BB384220002BEF9 /* UserPreferences.swift in Sources */,
 				A10B40D01BB052B800E8248D /* LoadingViewController.swift in Sources */,
 				A13FC2BD1BAF896600135BF8 /* MidPanelViewController.swift in Sources */,
-				A1CCFBE01BB6F85500E08CFD /* MSBApplicationInstallationSharedObject.swift in Sources */,
-				A1CCFBE31BB6F85500E08CFD /* MSBError.swift in Sources */,
+				D8EE6AD51C473ABA00AF6EC3 /* MSBBandTileDelegate.swift in Sources */,
+				D8EE6AD21C473ABA00AF6EC3 /* MSBApplicationInstallationSharedObject.swift in Sources */,
 				A10B40E21BB062EB00E8248D /* LocalViewController.swift in Sources */,
+				D8EE6AD91C473ABA00AF6EC3 /* MSBTile.swift in Sources */,
 				A18B46F91BB1561300A3667E /* DropboxViewController.swift in Sources */,
 				A1DBE0931BA48B1700D5F9DC /* LeftPanelViewController.swift in Sources */,
+				D8EE6AD71C473ABA00AF6EC3 /* MSBNotificationType.swift in Sources */,
 				A18B46FE1BB161AF00A3667E /* GoogleDriveViewController.swift in Sources */,
 				A1485CCF1BA361ED00A36A60 /* AppDelegate.swift in Sources */,
 				A1485CF01BA3C89100A36A60 /* SlidesViewController.swift in Sources */,
-				A1CCFBDF1BB6F85500E08CFD /* MSBApplication.swift in Sources */,
-				A1CCFBEA1BB6F85500E08CFD /* MSBTile.swift in Sources */,
-				A1CCFBE91BB6F85500E08CFD /* MSBSensorType.swift in Sources */,
-				A1CCFBE11BB6F85500E08CFD /* MSBBand.swift in Sources */,
-				A1CCFC041BB70F7000E08CFD /* MSBBandTileDelegate.swift in Sources */,
-				A1CCFBE41BB6F85500E08CFD /* MSBNotificationType.swift in Sources */,
+				D8EE6AD11C473ABA00AF6EC3 /* MSBApplication.swift in Sources */,
+				D8EE6AD61C473ABA00AF6EC3 /* MSBError.swift in Sources */,
+				D8EE6AD31C473ABA00AF6EC3 /* MSBBand.swift in Sources */,
 				A13FC2BB1BAF85C900135BF8 /* CentralControlViewController.swift in Sources */,
 				A1E11E191BB397430002BEF9 /* AirFlipBandApplication.swift in Sources */,
 			);
@@ -428,7 +426,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
-					"$(PROJECT_DIR)/Frameworks/WearableKit",
 				);
 				INFOPLIST_FILE = AirFlip/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -436,7 +433,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.AirFlipAlpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = AirFlip/BridgingHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Joe/Documents/Repo/OpenKit/Source Codes/MSBWrapper/MSBWrapper/BridgingHeader.h";
 			};
 			name = Debug;
 		};
@@ -449,7 +446,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
-					"$(PROJECT_DIR)/Frameworks/WearableKit",
 				);
 				INFOPLIST_FILE = AirFlip/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -457,7 +453,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.AirFlipAlpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = AirFlip/BridgingHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Joe/Documents/Repo/OpenKit/Source Codes/MSBWrapper/MSBWrapper/BridgingHeader.h";
 			};
 			name = Release;
 		};
